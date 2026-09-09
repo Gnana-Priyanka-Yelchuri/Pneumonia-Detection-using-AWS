@@ -14,8 +14,8 @@ Pneumonia is a respiratory infection that can be identified using medical imagin
 
 The task is treated as a **binary image classification problem**:
 
-- **NORMAL** — X-ray classified as normal
-- **PNEUMONIA** — X-ray classified as showing pneumonia
+- **NORMAL** - X-ray classified as normal
+- **PNEUMONIA** - X-ray classified as showing pneumonia
 
 The project covers the workflow from storing and preparing the dataset to training, evaluating, and testing the CNN model.
 
