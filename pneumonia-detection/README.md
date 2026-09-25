@@ -21,5 +21,5 @@ cleanup cell at the very end of the notebook (standard SageMaker
 kernel/instance shutdown boilerplate) — wasn't fully recoverable, since
 it was cut off in the report and not core project logic.
 
-**Lesson learned:** back up the notebook to S3 (or push to git) *before*
+**Lesson learned:** back up the notebook to Local storage (or push to git) *before*
 tearing down any S3 bucket , not after.
