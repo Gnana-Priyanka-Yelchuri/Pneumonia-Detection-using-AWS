@@ -2,9 +2,9 @@
 
 The original source files for this project (the SageMaker notebook and
 related scripts) no longer exist. While cleaning up AWS resources after
-the project wrapped up, I deleted the SageMaker notebook instance to
-avoid ongoing charges — without realizing that also removed my only copy
-of the notebook. I'd meant to download it and back it up to S3 first, but
+the project wrapped up, I deleted the S3(Bucket) to
+avoid Supposedly suprise charges — without realizing that also removed my only copy
+of the notebook. I'd meant to download it and back it up to local device, but
 lost track of that step in the moment and assumed I already had a local
 copy. I didn't.
 
@@ -22,4 +22,4 @@ kernel/instance shutdown boilerplate) — wasn't fully recoverable, since
 it was cut off in the report and not core project logic.
 
 **Lesson learned:** back up the notebook to S3 (or push to git) *before*
-tearing down any SageMaker instance, not after.
+tearing down any S3 bucket , not after.
